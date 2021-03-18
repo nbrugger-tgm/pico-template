@@ -6,7 +6,7 @@
 
 ## Requirements
 
-* cmake > 3.14
+* cmake >= 3.14
 * make
 * gcc
 * openssl
@@ -22,9 +22,9 @@ You will need a folder to permanently store the PICO SDK. In this tutorial we as
 > * WSL Ubuntu
 
 ```bash
-clone https://github.com/raspberrypi/pico-sdk /lib/mcu/pico
-echo export PICO_SDK_PATH=/lib/mcu/pico > ~/.bashrc
-clone https://github.com/raspberrypi/picotool /tmp/picotool
+git clone https://github.com/raspberrypi/pico-sdk /lib/mcu/pico
+echo export PICO_SDK_PATH=/lib/mcu/pico >> ~/.bashrc
+git clone https://github.com/raspberrypi/picotool /tmp/picotool
 cd /tmp/picotool
 mkdir build
 cd build
